@@ -19,8 +19,8 @@ else if (process.env.NODE_ENV === 'production') {
     app.use(express.static('public'))
 }
 
-app.use('/events', EventsRouter)
-app.use('/locations', LocationsRouter)
+app.use('/api/events', EventsRouter)
+app.use('/api/locations', LocationsRouter)
 
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>
