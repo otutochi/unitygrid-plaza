@@ -81,7 +81,7 @@ const eventsData = [
     name: "Comedy Night Special",
     location_id: 4,
     date_time: 1729296000, // October 18, 2024 8:00 PM
-    image_link: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop"
+    image_link: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&h=600&fit=crop"
   }
 ];
 
